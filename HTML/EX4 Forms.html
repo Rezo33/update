@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+</head>
+<body>
+
+<h1>Register</h1>
+<form action="http://google.com" method="get">
+
+<form>
+
+	<label for="name">First Name:</label>
+	<input id="name" type="text" name="name" placeholder="John" required>
+
+	<label for="lastname">Last Name</label>
+	<input id="lastname" type="text" name="lastname" placeholder="Smith" required>
+	<br>
+
+	<label for="male">Male</label>
+	<input id="male" type="radio" name="gender" required>
+
+	<label for="female">Female</label>
+	<input id="female" type="radio" name="gender" required>
+
+	<label for="other">Other</label>
+	<input id="other" type="radio" name="gender" required>
+	<br>
+
+	<label for="email">Email</label>
+	<input id="email" type="email" name="email" placeholder="your email" required>
+
+	<label for="password">Password:</label>
+	<input id="password" type="password" name="password" placeholder="your password" maxlength="15" minlength="5" required>
+<br>
+
+	<label for="Birthday">Birthday:
+		<select>Month
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+		</select>
+		<select>Day
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<select>Year
+			<option>1994</option>
+			<option>1995</option>
+			<option>1996</option>
+		</select>
+	</label>
+<br>
+	<label for="terms">I agree to the terms and condition</label>
+	<input id="terms" type="checkbox" name="do you agree?" >
+<br>
+	<input type="submit" name="submit">
+</form>
+
+</body>
+</html>

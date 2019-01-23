@@ -1,0 +1,85 @@
+
+body{
+	background-image: url("https://apollo-ireland.akamaized.net/v1/files/vkv5jpymkhwc-UA/image");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+p{	
+	display: block;
+	font-family: 'Cookie', cursive;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 20px;
+
+
+
+}
+
+.me{	
+	float: left;
+	display: block;
+	border:1px black solid;
+	padding: 2px 3px;
+	color: black;
+	background-color: #afffd7;
+	margin-left: 0;
+	width: 5%;
+	box-sizing: border-box;
+	border-radius: 20%;
+	text-align: center;
+	transition: 1.5s;
+
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	color:#ff2679;
+	border:1px #ff2679 solid;
+	transform: scale(1.2, 1.2);
+	background: none;
+}
+
+.menu{
+	margin-left: 20px;
+}
+
+.im{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#ima{
+	width: 180px;
+	height: 180px;
+	opacity: 0;
+	transition: 2s;
+
+}
+
+#ima:hover{
+	opacity: 1;
+}
+
+.card{
+	margin-top: 200px;
+}
+
+.card-text{
+	color: #4fabd6;
+	font-family: 'Lobster', cursive;
+}
+
+h4{
+	color: #FFFFFF;
+}
+
+#fot{
+	position: absolute;
+	bottom: 0;
+	right: 1px;
+}

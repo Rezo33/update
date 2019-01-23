@@ -1,0 +1,16 @@
+em{
+	color: #f44253;
+	font-size: 40px;
+}
+
+span{
+	font-size: 15px;
+}
+
+.bd-succes{
+	background: red;
+}
+
+a{
+	margin-left:5px;
+}
